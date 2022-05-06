@@ -18,6 +18,7 @@ void cafeACM221(int MenuMoney[10]) {
         continue;
     } else if (orderCntrl=="N" || orderCntrl=="n") {
         cout << "Your total cost is " << MenuMoneyAmount << "TL please proceed to the cashier!\n";
+        cout << "----------------------------------";
         break;
     } else {
         cout << "Your total cost is " << MenuMoneyAmount;
