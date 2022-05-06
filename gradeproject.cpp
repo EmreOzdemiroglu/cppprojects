@@ -16,7 +16,7 @@ int main() {
         grades[i] = grade;
     }
 
-    int Anum, Bnum, Cnum, Dnum, Fnum = 0; 
+    int Anum = 0, Bnum = 0, Cnum = 0, Dnum = 0, Fnum = 0; 
 
     for (int c = 0; c< GradeNumber; c++) { 
         if (grades[c]<60 && grades[c]>=0) {
